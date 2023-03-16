@@ -1,0 +1,22 @@
+.custom_fontstyle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.carousel-item{
+    height: 32rem;
+
+}
+.custom_size{
+    height: 32rem;
+}
+#blog_title{
+    position: absolute;
+    top: 10%;
+    left: 33rem;
+    color: white;
+    
+}
+#blog_title h1{
+    font-size: 5rem;
+    opacity: 0.8;
+    text-transform: uppercase;
+}

@@ -1,0 +1,46 @@
+#services {
+  background-color: rgb(42, 109, 152);
+}
+#service_div .service_style {
+  background-color: whitesmoke;
+  padding: 20px 40px;
+  /* font-size: 13px; */
+  font-weight: 400;
+  margin: 10px 50px;
+  box-shadow: 5px 10px 8px gray;
+  border-radius: 20px;
+  /* add hover effect */
+  transition: background 0.5;
+  transition: 0.5s;
+}
+#service_div .service_style i {
+  font-size: 6rem;
+  width: 100%;
+  /* border: 2px solid black; */
+  margin: 1rem 0px;
+}
+#service_div .service_style a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+/* div hover */
+#service_div .service_style:hover {
+  background-color: #ff004f;
+  transform: translateY(-10px);
+  color: white;
+}
+
+/* service product */
+#service_prod {
+  background-image: url(../../../../public/assets/img/wave-background-animation.gif);
+  background-repeat: none;
+  background-size: 100% 100%;
+  background-color: white;
+}
+#service_prod .t_color {
+  color: #ff004f;
+}
+#service_prod p {
+  font-weight: 400;
+  font-size: 1.1rem;
+}

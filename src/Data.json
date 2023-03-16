@@ -1,0 +1,21 @@
+[{
+    "id":1,
+    "img":"/assets/img/netflix_1.png",
+    "clientImg":"/assets/img/johnny-depp.jpg",
+    "name":"Johnny Depp"
+},
+{
+    "id":2,
+    "img":"/assets/img/news.png",
+    "clientImg":"/assets/img/kristen.jpg",
+    "name":"Kristen Dosan"
+},
+
+{
+    "id":3,
+    "img":"/assets/img/starbuck.png",
+    "clientImg":"/assets/img/chris-hemsworth.jpg",
+    "name":"Chris Homesworth"
+}
+
+]

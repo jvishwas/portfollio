@@ -1,0 +1,8 @@
+#gallary_img{
+    cursor: pointer;
+    transition:all 0.3s;
+}
+#gallary_img:hover{
+    margin-top: 1rem;
+    transform: scale(1.2);
+}
