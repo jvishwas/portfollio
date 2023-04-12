@@ -7,7 +7,8 @@ export default function Service() {
   return (
     <>
       {/* Videos */}
-      <div style={{ width: "100vw" }} className="bg-dark" data-aos="fade-left">
+      
+      <div style={{ width: "" }} className="bg-dark" data-aos="fade-left">
         <Media />
       </div>
       <div className="container-fluid " id="services">
@@ -25,9 +26,11 @@ export default function Service() {
           <ServiceCard CardName="UI Design" />
           <ServiceCard CardName="App Design" />
         </div>
-
+        
         <ServiceProd />
       </div>
+      
+      
     </>
   );
 }

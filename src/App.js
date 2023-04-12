@@ -11,11 +11,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Gallary from "./Componets/Pages/gallary/Gallary";
 import Blogs from "./Componets/Pages/blogs/Blogs";
 
+import Weather from "./Componets/Pages/project/weather/Weather";
+import SpeechRecog from "./Componets/Pages/project/speechRecog/SpeechRecog";
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <Nav />
+      
         <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/home" element={<HeroSection />} />
@@ -24,6 +28,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallary" element={<Gallary />} />
+          <Route path="/weather" element={<Weather />} />
+          <Route path="/speech" element={<SpeechRecog />} />
+
+
           <Route path="/blog" element={<Blogs />} />
           <Route path="*" element={<Error />} />
         </Routes>

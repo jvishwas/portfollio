@@ -4,27 +4,28 @@ import jv7 from "./jv7.png";
 export default function About() {
   return (
     <>
-      <div className="container-fluid h-auto " id="about">
-        <div className="row text-center">
+      <div className="container-fluid w-80 h-auto mt-4 " id="about">
+        <div className="row text-center ">
           <h1 className="text-white text-center text-decoration-underline pt-3">
             ABOUT ME
           </h1>
         </div>
         <div className="row mt-3">
           <div
-            className="col-12 col-md-6  d-flex justify-content-center "
+            className="col-12 col-md-6 my-auto mx-auto"
             id="img_box"
             data-aos="fade-down-right"
+            
           >
             <img
               src={jv7}
-              className="h-75  d-inline-block img-thumbnail"
+              className="w-75 mx-auto d-inline-block img-thumbnail"
               alt=""
               id="about_img"
             />
           </div>
           {/* <!-- right side --> */}
-          <div className="col-12 col-md-6 px-4">
+          <div className="col col-12 col-md-6 px-4">
             <div className="row " id="my_content" data-aos="fade-up-left">
               <h2 className="heading_text">Hello!</h2>
               <h3>I'm Vishwas</h3>
@@ -63,18 +64,18 @@ export default function About() {
               </p>
 
               <span id="social_icons">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
                 <a href={"https://www.linkedin.com/in/jvishwas123/"}>
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
                 {/* <i class="fa-brands fa-linkedin"></i> */}
                 <a href={"https://www.facebook.com/jagannath.vishwas.92/"}>
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href={"https://www.instagram.com/jaggu240/"}>
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
               </span>
             </div>
           </div>

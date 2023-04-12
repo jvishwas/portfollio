@@ -1,7 +1,10 @@
 #about {
   /* padding-top: 6rem; */
-
   background-color: rgb(42, 109, 152);
+}
+#about_img{
+  /* width:100%; */
+  
 }
 .heading_text {
   color: orangered;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const ServiceCard = (serices,icons) => {
+const ServiceCard = (serices) => {
     return (
         <>
             <div className="col service_style" data-aos="fade-up">

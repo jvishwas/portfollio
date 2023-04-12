@@ -1,5 +1,7 @@
 #services {
   background-color: rgb(42, 109, 152);
+
+
 }
 #service_div .service_style {
   background-color: whitesmoke;
@@ -31,12 +33,6 @@
 }
 
 /* service product */
-#service_prod {
-  background-image: url(../../../../public/assets/img/wave-background-animation.gif);
-  background-repeat: none;
-  background-size: 100% 100%;
-  background-color: white;
-}
 #service_prod .t_color {
   color: #ff004f;
 }

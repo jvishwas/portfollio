@@ -1,12 +1,12 @@
-import React from 'react';
-import "./service.css"
-
+import React from "react";
+import "./service.css";
+import { Image } from "../../../DataStore";
 const ServiceProd = () => {
-    return (
-        <>
-            <div className='row  p-3 mt-5' id='service_prod'  >
+  return (
+    <>
+      {/* <div className='row p-3 mt-5 ' id='service_prod'  >
                 <h1 className='text-white text-center text-decoration-underline py-3' >IT Support Services</h1>
-                <div className='col col-md-6 col-lg-6 col-12  ' data-aos='fade-right' >
+                <div className='col col-md-6 col-lg-6 col-12' data-aos='' >
                     <img src='./assets/img/software-deve.gif' alt='not found' className='img-fluid'/>
                 </div>
                 <div className='col col-md-6 col-lg-6 col-12 ' >
@@ -21,9 +21,24 @@ const ServiceProd = () => {
                     
                 </div>
 
-            </div>  
-        </>
-    );
-}
+            </div>   */}
+      <div className="row mx-2">
+        {Image.map((img) => {
+          return (
+            <div className="row w-100 my-3 mx-auto bg-light" data-aos="fade-up" key={img.id} >
+              <h1 className="text-center my-2">{img.name}</h1>
+              <div className="col col-12 my-auto ">
+                <img src={img.imgUrl} className="mx-auto d-block" alt="not found" style={{width:"10rem",MaxHeight:"10rem"}} />
+              </div>
+              <div className="col col-12 ">
+                <p className="fs-5 text-info text-center py-2">{img.title}</p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </>
+  );
+};
 
 export default ServiceProd;

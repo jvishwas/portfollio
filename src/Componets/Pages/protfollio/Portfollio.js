@@ -15,9 +15,9 @@ export default function Portfollio() {
           </h1>
 
           {IMG &&
-            IMG.map((myimg, i) => (
+            IMG.map((myimg) => (
               <div
-                key={i.id}
+                key={myimg.id}
                 className="col col-12 col-sm-12 col-md-4 my-3 "
                 id="card_body"
                 data-aos="zoom-in"
@@ -35,8 +35,10 @@ export default function Portfollio() {
       {/* <Slider/>
       <Slider />
       <Slider /> */}
+      <div className="row mx-2">
+      {IMG && IMG.map((data) => <CardProt items={data} key={data.id} />)}
 
-      {IMG && IMG.map((data) => <CardProt items={data} />)}
+      </div>
     </>
   );
 }

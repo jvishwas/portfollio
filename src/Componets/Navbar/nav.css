@@ -1,3 +1,7 @@
+#nav_bar{
+    position: relative;
+    z-index: 999;
+}
 #my_logo{
     font-size: 2rem;
     color: orangered;

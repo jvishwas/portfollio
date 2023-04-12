@@ -11,13 +11,14 @@ import Blogs from "../blogs/Blogs";
 export default function Hero_section() {
   return (
     <>
+    
       <section
-        className="pt-5 pb-5 mt-0 align-items-center d-flex "
+        className="container-fluid pt-5 pb-5 mt-0 align-items-center d-flex w-100 "
         id="hero_section"
       >
         {/* <!-- style="height:100vh; background-size: cover; background-image: url(./img/jv1.png); --> */}
 
-        <div className="container-fluid">
+        <div className="container-fluid d-block w-100">
           <div className="row  justify-content-center align-items-center d-flex text-left h-100 ">
             <div className="col col-sm-12 col-md-8  h-50 py-4">
               <h1
@@ -42,38 +43,42 @@ export default function Hero_section() {
 
               <div className="btn-container-wrapper p-relative d-block text-center zindex-1">
                 <Link
-                  to="/about"
-                  className="btn btn-link btn-lg   mt-md-3 mb-4 scroll align-self-center text-light"
+                  to="/blog"
+                  className="btn btn-link btn-lg mt-md-3 mb-4 scroll align-self-center text-light"
                 >
                   <i className="fa fa-angle-down fa-4x text-light" />
+                  
+                  
                 </Link>
               </div>
             </div>
           </div>
           {/* social icons */}
           <div id="heresection_social_icons" data-aos="zoom-in-up">
-            <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter"></i>
             <a href={"https://www.linkedin.com/in/jvishwas123/"}>
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
             <a href={"https://www.facebook.com/jagannath.vishwas.92/"}>
-              <i class="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-facebook"></i>
             </a>
             <a href={"https://www.instagram.com/jaggu240/"}>
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
           </div>
         </div>
       </section>
       {/*All Componets use here.. */}
-      <Service />
-      <Portfollio />
+     
+      <Service/>
+       <Portfollio />
       <About />
-      <Contact />
+      <Contact />  
       <br />
       <br />
-      <Blogs />
+      <Blogs /> 
+      
     </>
   );
 }

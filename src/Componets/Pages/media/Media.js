@@ -5,10 +5,10 @@ const Media = () => {
     <>
       <div
         id="carouselExampleSlidesOnly"
-        class="carousel slide "
+        className="carousel slide "
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner ">
+        <div className="carousel-inner ">
           <div className="carousel-item active h-100 ">
             <video
               loop

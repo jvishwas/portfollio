@@ -6,7 +6,7 @@ export default function Memories() {
   return (
     <>
       <div className="row">
-        <h1 className="text-center text-white text-decoration-underline">Memories</h1>
+        <h1 className="text-center text-white text-decoration-underline mt-4 mb-5">Memories</h1>
         
             {
                 CollagePic.map((data)=>

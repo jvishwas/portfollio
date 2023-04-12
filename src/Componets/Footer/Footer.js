@@ -7,7 +7,7 @@ export default function Footer() {
       <section id="footer">
         <div className="container ">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <div className="col-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
               <ul
                 className="list-unstyled list-inline social text-center"
                 id="aa"

@@ -16,11 +16,11 @@ const [state,setState]=useState();
     }
     return (
         <>
-            <div className='mt-2' style={{width:'100vw',height:"100vh"}}>
+            {/* <div className='mt-2' style={{width:'100vw',height:"100vh"}}>
             <h1 data-aos="zoom-in" style={{color:"white"}} >Gallary</h1>
             <div className='mt-3'>{state}</div>
             <button data-aos="zoom-in" className='btn btn-primary' onClick={inputHandler}>Show More..</button>
-            </div>
+            </div> */}
             <Memories/>
         </>        
     );

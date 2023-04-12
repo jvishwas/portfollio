@@ -117,7 +117,10 @@ const Blogs = () => {
       </div>
 
       {/* Tranding section */}
+      {/* <div className="row "> */}
       <Cards/>
+      {/* </div> */}
+      
     </>
   );
 };
